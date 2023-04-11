@@ -1,3 +1,17 @@
+#  ______ _                              __  __                                   
+# |  ____(_)                            |  \/  |                                  
+# | |__   _ _ __   __ _ _ __   ___ ___  | \  / | __ _ _ __   __ _  __ _  ___ _ __ 
+# |  __| | | '_ \ / _` | '_ \ / __/ _ \ | |\/| |/ _` | '_ \ / _` |/ _` |/ _ \ '__|
+# | |    | | | | | (_| | | | | (_|  __/ | |  | | (_| | | | | (_| | (_| |  __/ |   
+# |_|    |_|_| |_|\__,_|_| |_|\___\___| |_|  |_|\__,_|_| |_|\__,_|\__, |\___|_|   
+#                                                                  __/ |          
+#                                                                 |___/           
+# By A.S.
+
+# The following program is a Graphical Finance Management System.
+# It has buttons that allow you to interact with the DATA through pop-up menus.
+# It uses the tkinter library to do this.
+
 import tkinter as tk
 from tkinter import messagebox, simpledialog, ttk
 
