@@ -1,3 +1,23 @@
+#  ______ _                              __  __                                   
+# |  ____(_)                            |  \/  |                                  
+# | |__   _ _ __   __ _ _ __   ___ ___  | \  / | __ _ _ __   __ _  __ _  ___ _ __ 
+# |  __| | | '_ \ / _` | '_ \ / __/ _ \ | |\/| |/ _` | '_ \ / _` |/ _` |/ _ \ '__|
+# | |    | | | | | (_| | | | | (_|  __/ | |  | | (_| | | | | (_| | (_| |  __/ |   
+# |_|    |_|_| |_|\__,_|_| |_|\___\___| |_|  |_|\__,_|_| |_|\__,_|\__, |\___|_|   
+#                                                                  __/ |          
+#                                                                 |___/           
+# By A.S.
+
+# The following program is a Finance Management System.
+# It works through the console by following predetermined instructions.
+# The instructions are labeled from 1 to 6 and do the following:
+#   1. Add income: Adds an income, a positive number to your balance.
+#   2. Add expenditure: Adds an expenditure, a negative number to your balance.
+#   3. Show balance: Prints the sum of the incomes minus the sum of the expenditures.
+#   4. Show incomes: Prints all of the incomes
+#   5. Show expenditures: Prints all of the expenditures
+#   6. Exit: quits the program
+
 class Transaction:
     def __init__(self, name, amount):
         self.name = name
